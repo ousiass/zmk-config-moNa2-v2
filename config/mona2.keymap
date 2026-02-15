@@ -10,6 +10,11 @@
     quick-tap-ms = <0>;
 };
 
+&trackball_central {
+    automouse-layer = <4>;
+    scroll-layers = <5>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
