@@ -10,8 +10,6 @@ manifest:
     #   url-base: https://github.com/sekigon-gonnoc
     - name: caksoylar  # <-- RGB LED
       url-base: https://github.com/caksoylar  
-    - name: zettaface  # <-- Input Processor Keybind
-      url-base: https://github.com/zettaface
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,9 +23,6 @@ manifest:
     #   revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: main
-    - name: zmk-input-processor-keybind
-      remote: zettaface
       revision: main
   self:
     path: config
